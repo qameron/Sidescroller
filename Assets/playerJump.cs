@@ -11,7 +11,7 @@ public class playerJump : MonoBehaviour {
     private bool isSecondJump;
     public float jumpVelocity;
 
-    private Animator anim;
+    //private Animator anim;
 
     Rigidbody2D playerRb;
     
@@ -21,7 +21,7 @@ public class playerJump : MonoBehaviour {
         isFirstJump = false;
         isSecondJump = false;
 
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
       
     }
 
@@ -39,16 +39,14 @@ public class playerJump : MonoBehaviour {
                 isFirstJump = true;
                 isSecondJump = false;
                 playerRb.velocity = Vector2.up * jumpVelocity;
-                //jump animator
-                anim.SetBool("Jump", isFirstJump);
-            }
+                //jump animator?
+                }
             else if (isSecondJump == false)
             {
                 playerRb.velocity = Vector2.up * jumpVelocity;
                 isFirstJump = false;
                 isSecondJump = true;
-                //jump animator
-                anim.SetBool("secondJump", isSecondJump);
+                //jump animator?
             }
         }
 
@@ -67,8 +65,6 @@ public class playerJump : MonoBehaviour {
         {
             isFirstJump = false;
             isSecondJump = false;
-            anim.SetBool("Jump", isFirstJump);
-            anim.SetBool("secondJump", isSecondJump);
         }
     }
 }
