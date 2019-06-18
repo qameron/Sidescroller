@@ -8,18 +8,20 @@ public class PlayerMove : MonoBehaviour {
     private bool FacingRight;
     private float horizontalinput;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         FacingRight = true;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         horizontalinput = Input.GetAxis("Horizontal");
         float rightorleft = horizontalinput * Speed * Time.deltaTime;
         transform.position = new Vector2(transform.position.x + rightorleft, transform.position.y);
         Flip(horizontalinput);
-	}
+
+    }
 
     //Flips the player x scale if the horizontal value (direction) is not the same as the 
     //player orientation
