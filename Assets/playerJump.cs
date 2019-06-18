@@ -11,6 +11,7 @@ public class playerJump : MonoBehaviour {
     private bool isSecondJump;
     public float jumpVelocity;
 
+    private Animator anim;
 
     Rigidbody2D playerRb;
     
@@ -19,11 +20,17 @@ public class playerJump : MonoBehaviour {
         playerRb = GetComponent<Rigidbody2D>();
         isFirstJump = false;
         isSecondJump = false;
+
+        anim = GetComponent<Animator>();
+      
     }
 
     // Update is called once per frame
-    void FixedUpdate () {
+    void FixedUpdate () { 
 
+}
+    void Update ()
+    {
         //jump
         if (Input.GetKeyDown("space"))
         {
@@ -32,12 +39,16 @@ public class playerJump : MonoBehaviour {
                 isFirstJump = true;
                 isSecondJump = false;
                 playerRb.velocity = Vector2.up * jumpVelocity;
+                //jump animator
+                anim.SetBool("Jump", isFirstJump);
             }
             else if (isSecondJump == false)
             {
                 playerRb.velocity = Vector2.up * jumpVelocity;
                 isFirstJump = false;
                 isSecondJump = true;
+                //jump animator
+                anim.SetBool("secondJump", isSecondJump);
             }
         }
 
@@ -49,6 +60,15 @@ public class playerJump : MonoBehaviour {
         else if (playerRb.velocity.y > 0 && !Input.GetButton("Jump"))
         {
             playerRb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMulitplier - 1) * Time.deltaTime;
+        }
+
+        //reset jump values if on ground (fixes jumping not resetting bug)
+        if (playerRb.velocity.y == 0.0)
+        {
+            isFirstJump = false;
+            isSecondJump = false;
+            anim.SetBool("Jump", isFirstJump);
+            anim.SetBool("secondJump", isSecondJump);
         }
     }
 }
