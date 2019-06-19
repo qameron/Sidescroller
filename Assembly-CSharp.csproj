@@ -67,6 +67,7 @@
     <Compile Include="Assets\playerJump.cs" />
     <Compile Include="Assets\PlayerMove.cs" />
     <Compile Include="Assets\walking.cs" />
+    <None Include="Assets\ErbGameArt\Procedural fire\Shaders\FireSphere.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/User/Documents/comp260assignment3/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
