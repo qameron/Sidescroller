@@ -8,11 +8,17 @@ public class PlayerMove : MonoBehaviour
     public float Speed = 10f;
     private bool FacingRight;
     private float horizontalinput;
-    public float dashDistance = 5f;
+    public float dashSpeed = 5f;
     private Animator anim;
     public bool dashed = false;
     public float dashCooldown = 3f;
+    public float dashDuration = 0.2f;
 
+    private Rigidbody2D rb;
+
+    public GameObject dashEffectPrefab;
+
+    private GameObject ps;
 
     void Start()
     {
@@ -23,6 +29,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        rb = GetComponent<Rigidbody2D>();
         horizontalinput = Input.GetAxis("Horizontal");
         float rightorleft = horizontalinput * Speed * Time.deltaTime;
         transform.position = new Vector2(transform.position.x + rightorleft, transform.position.y);
@@ -32,13 +39,14 @@ public class PlayerMove : MonoBehaviour
         {
             dashed = true;
             anim.SetBool("Dash", true);
-            if (FacingRight == true)
+            ps = Instantiate(dashEffectPrefab, transform.position, Quaternion.identity);
+                if (FacingRight == true)
             {
-                transform.position = new Vector2(transform.position.x + dashDistance, transform.position.y);
+                rb.velocity = Vector2.right * dashSpeed;
             }
             else
             {
-                transform.position = new Vector2(transform.position.x - dashDistance, transform.position.y);
+                rb.velocity = Vector2.left * dashSpeed;
             }
             StartCoroutine("WaitforDash");
         }
@@ -63,7 +71,10 @@ public class PlayerMove : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
         anim.SetBool("Dash", false);
+        yield return new WaitForSeconds(dashDuration);
+        rb.velocity = new Vector2(0, rb.velocity.y);
+        Destroy(ps);
         yield return new WaitForSeconds(dashCooldown);
         dashed = false;
-    }
+        }
 }
