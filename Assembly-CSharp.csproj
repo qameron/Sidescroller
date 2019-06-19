@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Character.cs" />
+    <Compile Include="Assets\EnemyMove.cs" />
+    <Compile Include="Assets\Player.cs" />
     <Compile Include="Assets\playerJump.cs" />
     <Compile Include="Assets\PlayerMove.cs" />
     <Compile Include="Assets\walking.cs" />
