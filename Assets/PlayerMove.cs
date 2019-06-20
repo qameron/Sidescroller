@@ -4,21 +4,20 @@ using UnityEngine;
 
 public class PlayerMove : MonoBehaviour
 {
-
+    //public for development. Make private once fields values are finalized
     public float Speed = 10f;
-    private bool FacingRight;
-    private float horizontalinput;
     public float dashSpeed = 5f;
-    private Animator anim;
     public bool dashed = false;
     public float dashCooldown = 3f;
     public float dashDuration = 0.2f;
-
-    private Rigidbody2D rb;
-
     public GameObject dashEffectPrefab;
 
+    private float horizontalinput;
+    private bool FacingRight;
+    private Animator anim;
+    private Rigidbody2D rb;
     private GameObject ps;
+    private Component[] childrenpsr;
 
     void Start()
     {
@@ -39,8 +38,13 @@ public class PlayerMove : MonoBehaviour
         {
             dashed = true;
             anim.SetBool("Dash", true);
-            ps = Instantiate(dashEffectPrefab, transform.position, Quaternion.identity);
-                if (FacingRight == true)
+            ps = Instantiate(dashEffectPrefab, rb.transform.position, Quaternion.identity);
+            childrenpsr = ps.GetComponentsInChildren<ParticleSystemRenderer>();
+            foreach(ParticleSystemRenderer psr in childrenpsr)
+            {
+                psr.sortingOrder = 30;
+            }
+            if (FacingRight == true)
             {
                 rb.velocity = Vector2.right * dashSpeed;
             }
