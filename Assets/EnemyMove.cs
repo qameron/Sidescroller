@@ -8,7 +8,7 @@ public class EnemyMove : MonoBehaviour {
     private Animator anim;
     //private float rightorleft;
     private Vector2 direction = Vector2.right;
-    public float PatrolRadius = 1000;
+    public float PatrolRadius = 100;
     private float IdleTimer = 0;
     private float Ptimer = 0;
    // public bool FaceRight = true;
@@ -18,7 +18,7 @@ public class EnemyMove : MonoBehaviour {
 	void Start ()
     {
             anim = GetComponent<Animator>();
-            direction = Vector2.right;
+        
     }
 
 
@@ -31,18 +31,20 @@ public class EnemyMove : MonoBehaviour {
     public void Patrol ()
     {
 
-        
+        print(Ptimer + " Ptimer");
+        print(PatrolRadius + " Patrol Radius");
 
         if (Ptimer < PatrolRadius){
             
             
             transform.Translate(direction * speed * Time.deltaTime);
-            Ptimer += 15;
+            Ptimer += 1;
             anim.SetFloat("walk", direction.x);
+           // print(Ptimer);
             
         } else
         {
-            Ptimer = -1000;
+            Ptimer = -100;
             if (direction == Vector2.right)
             {
                 direction = Vector2.left;
