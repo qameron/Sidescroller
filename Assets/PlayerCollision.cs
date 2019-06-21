@@ -11,6 +11,7 @@ public class PlayerCollision : MonoBehaviour
     private Animator anim;
     private BoxCollider2D enemies;
     private bool playerDamaged;
+    private Rigidbody2D rb;
 
     // Use this for initialization
     void Start()
@@ -21,20 +22,19 @@ public class PlayerCollision : MonoBehaviour
             Debug.Log("No healthbar found");
         }
         health = healthBar.GetHealth();
-        //set animator
-    }
+        anim = GetComponent<Animator>();
+}
 
     // Update is called once per frame
     void FixedUpdate()
     {
         if (playerDamaged)
         {
-            Debug.Log(health);
             health = healthBar.GetHealth();
+            Debug.Log(health);
             if (health <= 0)
             {
-                //need to add bool in animator
-                //anim.SetBool("Dead", true);
+                anim.SetBool("Dead", true);
             }
             else
             {
@@ -44,16 +44,32 @@ public class PlayerCollision : MonoBehaviour
         }
     }
 
-    //wont enter?
     void OnTriggerEnter2D(Collider2D col)
     {
-            Debug.Log("collided");
-            if (col.gameObject.name.Contains("Rogue_"))
-            {
-                playerDamaged = true;
-                //set animation
-                //wait 2s
+        if (col.gameObject.name.Contains("Rogue_"))
+        {
+            rb = GetComponent<Rigidbody2D>();
+
+            if ((col.gameObject.transform.localScale.x < 0 && this.transform.localScale.x < 0) || (col.gameObject.transform.localScale.x > 0 && this.transform.localScale.x > 0))
+            { 
+                col.attachedRigidbody.velocity = (rb.velocity * 2);
+                WaitforSecnds(0.2f);
+                col.gameObject.GetComponent<EnemyMove>().Dead();
+                WaitforSecnds(0.2f);
                 Destroy(col.gameObject);
             }
+            else
+            {
+                playerDamaged = true;
+                rb.velocity = new Vector2(rb.velocity.normalized.x * -20, 5);
+                //set animation
+                WaitforSecnds(2f);
+            }
+            }
+    }
+
+    IEnumerator WaitforSecnds(float time)
+    {
+        yield return new WaitForSeconds(time);
     }
 }

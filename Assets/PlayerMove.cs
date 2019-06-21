@@ -68,7 +68,6 @@ public class PlayerMove : MonoBehaviour
             playerScale.x *= -1;
             transform.localScale = playerScale;
         }
-
     }
 
     IEnumerator WaitforDash()
