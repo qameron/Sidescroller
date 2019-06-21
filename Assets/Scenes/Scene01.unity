@@ -160,7 +160,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -473,7 +473,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -524,7 +524,7 @@ Transform:
   - {fileID: 1450612252}
   - {fileID: 856119282}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &54764129
 Tilemap:
@@ -824,7 +824,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -956,7 +956,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -1293,7 +1293,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -6163,7 +6163,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -6350,7 +6350,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -6557,7 +6557,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -6669,7 +6669,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -7394,7 +7394,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &531665414
 GameObject:
@@ -7593,7 +7593,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -7725,7 +7725,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -8137,7 +8137,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -8324,7 +8324,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -8638,7 +8638,7 @@ RectTransform:
   m_Children:
   - {fileID: 1635308476}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8998,7 +8998,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -9185,7 +9185,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -9354,7 +9354,7 @@ Transform:
   - {fileID: 848539931}
   - {fileID: 266340934}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724467249
 GameObject:
@@ -9547,7 +9547,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -9734,7 +9734,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -53935,7 +53935,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -54217,7 +54217,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -54274,7 +54274,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -54331,7 +54331,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -54388,7 +54388,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -54490,7 +54490,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011914616612, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 61774550344295458, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
@@ -54500,7 +54500,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114408952894260730, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
@@ -54918,7 +54918,7 @@ Transform:
   m_Children:
   - {fileID: 1039821186}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106573500
 GameObject:
@@ -55042,7 +55042,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -64702,7 +64702,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -69513,7 +69513,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -70072,7 +70072,7 @@ Transform:
   m_LocalScale: {x: 10.151653, y: 10.151653, z: 10.151653}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1381505624
 GameObject:
@@ -70196,7 +70196,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -70458,7 +70458,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -96206,7 +96206,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -96338,7 +96338,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -105850,7 +105850,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -106147,7 +106147,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -106334,7 +106334,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -106671,11 +106671,16 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
       value: Rogue_05 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
+        type: 2}
+      propertyPath: detected
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114408952894260730, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
@@ -106803,7 +106808,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -107866,7 +107871,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name
@@ -107978,7 +107983,7 @@ Prefab:
     - target: {fileID: 114112864578399316, guid: 30ef59945f2a7ea499bbbe10a7d48f1a,
         type: 2}
       propertyPath: PatrolRadius
-      value: 130
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1000013304306144, guid: 30ef59945f2a7ea499bbbe10a7d48f1a, type: 2}
       propertyPath: m_Name

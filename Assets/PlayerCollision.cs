@@ -31,7 +31,6 @@ public class PlayerCollision : MonoBehaviour
         if (playerDamaged)
         {
             health = healthBar.GetHealth();
-            Debug.Log(health);
             if (health <= 0)
             {
                 anim.SetBool("Dead", true);

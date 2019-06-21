@@ -8,11 +8,10 @@ public class EnemyMove : MonoBehaviour {
 
     private Transform rb;
     private Animator anim;
-    private float IdleTimer = 0;
     private float Ptimer = 300f;
     private float EnemyBasePosition = 0f;
     private Vector3 direction = Vector3.right;
-    private bool detected = false;
+    public bool detected = false;
     private Transform player;
 
 
@@ -53,7 +52,7 @@ public class EnemyMove : MonoBehaviour {
                 }
                 else
                 {
-                    if ((Mathf.Abs(EnemyBasePosition) - PatrolRadius) < Mathf.Abs(rb.localPosition.x))
+                    if ((Mathf.Abs(EnemyBasePosition) - PatrolRadius) > Mathf.Abs(rb.localPosition.x))
                     {
                         Ptimer = 300f;
                         direction *= -1;
